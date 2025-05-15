@@ -14,6 +14,7 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 );
 
 
+
 builder.Services.AddScoped<IPrescriptionService, PrescriptionService>();
 
 var app = builder.Build();
